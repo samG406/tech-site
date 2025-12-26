@@ -1,15 +1,16 @@
 import Layout from '../components/Layout'
 import Reveal from '../components/Reveal'
+import PageHero from '../components/PageHero'
 
 export default function HowItWorks() {
   return (
     <Layout title="How Sylvan Works - Sylvan">
+      <PageHero
+        title="How Sylvan Works"
+        quote="Leverage is fixed at close. Distributions adjust to performance; leverage does not."
+      />
       <section className="section-alt">
         <div className="container">
-          <Reveal as="div">
-            <h2>How Sylvan Works</h2>
-          </Reveal>
-
           <Reveal as="div" delay={120}>
             <h3>Structure / Series / Issuance Layers</h3>
             <div className="offering-card">

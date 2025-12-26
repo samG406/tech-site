@@ -1,18 +1,13 @@
 import Layout from '../components/Layout'
 import Reveal from '../components/Reveal'
+import PageHero from '../components/PageHero'
 
 export default function Start() {
   return (
     <Layout title="Start Here - Sylvan">
+      <PageHero title="Start Here" quote="Remove confusion before detail." />
       <section>
         <div className="container">
-          <Reveal as="div">
-            <h2>Start Here</h2>
-          </Reveal>
-          <Reveal as="div" delay={80}>
-            <p className="page-lead">Remove confusion before detail.</p>
-          </Reveal>
-
           <Reveal as="div" delay={140}>
             <div className="offering-card">
               <div className="stack-24">

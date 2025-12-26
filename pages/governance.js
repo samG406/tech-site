@@ -1,15 +1,16 @@
 import Layout from '../components/Layout'
 import Reveal from '../components/Reveal'
+import PageHero from '../components/PageHero'
 
 export default function Governance() {
   return (
     <Layout title="Governance & Exam Narrative - Sylvan">
+      <PageHero
+        title="Governance & Exam Narrative"
+        quote="One-time structure approval, then per-issuance asset review and audit-ready documentation."
+      />
       <section className="section-alt">
         <div className="container">
-          <Reveal as="div">
-            <h2>Governance & Exam Narrative</h2>
-          </Reveal>
-
           <Reveal as="div" delay={120}>
             <h3>CIO Framework</h3>
             <div className="offering-card" style={{ marginBottom: '2rem' }}>

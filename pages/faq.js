@@ -1,15 +1,16 @@
 import Layout from '../components/Layout'
 import Reveal from '../components/Reveal'
+import PageHero from '../components/PageHero'
 
 export default function FAQ() {
   return (
     <Layout title="Frequently Asked Questions - Sylvan">
+      <PageHero
+        title="Frequently Asked Questions"
+        quote="Sylvan is an issuance-based structure. Leverage is fixed at close."
+      />
       <section className="section-alt">
         <div className="container">
-          <Reveal as="div">
-            <h2>Frequently Asked Questions</h2>
-          </Reveal>
-
           <Reveal as="div" delay={120}>
             <div className="offering-card" style={{ marginBottom: '1.5rem' }}>
               <h3>Is this a fund?</h3>

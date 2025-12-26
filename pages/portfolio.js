@@ -1,15 +1,16 @@
 import Layout from '../components/Layout'
 import Reveal from '../components/Reveal'
+import PageHero from '../components/PageHero'
 
 export default function Portfolio() {
   return (
     <Layout title="Portfolio Role & Comparisons - Sylvan">
+      <PageHero
+        title="Portfolio Role & Comparisons"
+        quote="Designed as a private real asset income allocation that complements bonds, REITs, and traditional private credit."
+      />
       <section>
         <div className="container">
-          <Reveal as="div">
-            <h2>Portfolio Role & Comparisons</h2>
-          </Reveal>
-
           <Reveal as="div" delay={120}>
             <div className="offerings-grid" style={{ gridTemplateColumns: '1fr', marginTop: '1.75rem' }}>
               <div className="offering-card">

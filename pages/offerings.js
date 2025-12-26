@@ -1,15 +1,16 @@
 import Layout from '../components/Layout'
 import Reveal from '../components/Reveal'
+import PageHero from '../components/PageHero'
 
 export default function Offerings() {
   return (
     <Layout title="Offerings - Sylvan">
+      <PageHero
+        title="Offerings"
+        quote="All Sylvan offerings are closed-end with no redemption feature. Exit occurs via property sale or refinance. Assets are custodian-held."
+      />
       <section>
         <div className="container">
-          <Reveal as="div">
-            <h2>Offerings</h2>
-          </Reveal>
-
           <Reveal as="div" delay={120}>
             <div className="offering-card" style={{ marginBottom: '2rem' }}>
               <h3>Shared Characteristics</h3>
